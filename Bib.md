@@ -6,7 +6,7 @@ This page contains all sources used for the project, formatted in numbered citat
 
 ## References
 
-[1] Arduino Blog. (n.d.). *One board to rule them all: History of the Arduino Uno*. Retrieved December 9, 2021. https://blog.arduino.cc/2021/12/09/one-board-to-rule-them-all-history-of-the-arduino-uno/
+[1] Arduino Blog. (n.d.). *One board to rule them all: History of the Arduino Uno*. Retrieved December 9, 2021. [https://blog.arduino.cc/2021/12/09/one-board-to-rule-them-all-history-of-the-arduino-uno/](https://blog.arduino.cc/2021/12/09/one-board-to-rule-them-all-history-of-the-arduino-uno/)
 
 [2] Arduino Documentation. (n.d.). *Control an 8×8 matrix of LEDs*. https://docs.arduino.cc/built-in-examples/display/RowColumnScanning/
 
