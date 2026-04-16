@@ -20,6 +20,7 @@ This website explains how to:
 - [Stacker Game](stacker.md)
 - [Galton Board](galtonboard.md)
 - [Troubleshooting](troubleshooting.md)
+- [Bibliography](Bib.md)
 
 ## Author
 Alec Segur
