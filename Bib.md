@@ -83,10 +83,3 @@ This page contains all sources used for the project, formatted in numbered citat
 [38] YouTube. (2023). *Raspberry Pi 5 unboxing and setup*. https://www.youtube.com/watch?v=nXdEqbL_6jg
 
 [39] Harvard University Countway Library of Medicine. (n.d.). *Sir Francis Galton*. https://collections.countway.harvard.edu/onview/exhibits/show/galtonschildren/sir-francis-galton/
-
----
-
-## How to Use This Page
-- Use citations in-text like: **[1], [2], [3]**
-- Multiple sources: **[2, 13]**
-- Add this file to a Markdown viewer or GitHub repo for a clean bibliography page
