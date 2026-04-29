@@ -38,20 +38,20 @@ You will learn:
 
 ## What does `void` mean?
 
-In Arduino C++, `void` is a function return type that means "nothing." When a function is declared as `void`, it does not return any value back to the caller.
+In Arduino C++, `void` is a function return type that means "nothing" [12](Bib.md). When a function is declared as `void`, it does not return any value back to the caller [6](Bib.dmd).
 
-In this sketch, `void setup()` and `void loop()` are special Arduino functions that the board calls automatically:
+In this sketch, `void setup()` and `void loop()` are special Arduino functions that the board calls automatically [3](Bib.md):
 
 - `void setup()` runs once at startup and does not return anything.
 - `void loop()` runs repeatedly and also does not return a value.
 
-Using `void` is normal for functions that perform actions like initializing hardware or updating the game state without producing a result.
+Using `void` is normal for functions that perform actions like initializing hardware or updating the game state without producing a result [7](Bib.md).
 
 ## What is a library?
 
-In Arduino programming, a library is a collection of pre-written code that provides functions and tools to simplify common tasks. For example, the `LedControl` library handles communication with the MAX7219 LED driver chip, allowing you to control the matrix without writing low-level SPI code from scratch.
+In Arduino programming, a library is a collection of pre-written code that provides functions and tools to simplify common tasks [37](Bib.md). For example, the `LedControl` library handles communication with the MAX7219 LED driver chip [14](Bib.md), allowing you to control the matrix without writing low-level SPI code from scratch.
 
-Libraries are installed via the Arduino IDE's Library Manager and included in your sketch with `#include <LibraryName.h>`. They extend Arduino's capabilities, such as controlling displays, sensors, or motors, making projects like this Snake game easier to build.
+Libraries are installed via the Arduino IDE's Library Manager and included in your sketch with `#include <LibraryName.h>` [2](Bib.md). They extend Arduino's capabilities, such as controlling displays, sensors, or motors, making projects like this Snake game easier to build.
 
 Explanation:
 - Libraries save time by reusing code for hardware interactions.
@@ -97,7 +97,7 @@ Try this:
 - `CLK` → Arduino pin `13`
 - `CS` / `LOAD` → Arduino pin `7`
 
-Explanation:
+Explanation [14](Bib.md):
 - `DIN`, `CLK`, and `CS` are the three signals that talk to the MAX7219 driver.
 - `VCC` and `GND` power the LED matrix, while `CS` tells the MAX7219 when a complete command is ready.
 - This wiring makes the Arduino the controller, and the MAX7219 handles the LED refresh timing.
@@ -148,7 +148,7 @@ If the matrix lights up fully, the wiring is good. If not, check power, ground, 
 
 ## Step 3: Understand the sketch structure
 
-The sketch is divided into these sections:
+The sketch is divided into these sections [2](Bib.md):
 
 1. `#include <LedControl.h>` – load the matrix driver library
 2. pin and game state setup
@@ -252,7 +252,7 @@ Notes:
 
 ## Step 6: Read joystick input and choose a direction
 
-The joystick values are read with `analogRead()`. The sketch uses thresholds to decide direction.
+The joystick values are read with `analogRead()`. The sketch uses thresholds to decide direction [6](Bib.md).
 
 ```cpp
 int xValue = analogRead(xPin);
@@ -312,7 +312,7 @@ if (currentTime - lastMoveTime >= moveInterval) {
 }
 ```
 
-Explanation:
+Explanation [2](Bib.md):
 - `millis()` returns the number of milliseconds since the Arduino started.
 - Checking the elapsed time instead of using `delay()` keeps the program able to read the joystick continuously.
 - This is called non-blocking timing: the sketch only updates movement when enough time has passed.
