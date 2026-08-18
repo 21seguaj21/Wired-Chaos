@@ -37,6 +37,12 @@ As balls drop through the rows of pegs, each hit forces a 50/50 choice: left or 
 
 Galton famously said: *"Order in Apparent Chaos: I know of scarcely anything so apt to impress the imagination as the wonderful form of cosmic order expressed by the 'Law of Frequency of Error'."*
 
+For more information on Sir Francis Galton: [https://study.com/academy/lesson/video/sir-francis-galton-intelligence-eugenics-fingerprints.html](https://study.com/academy/lesson/video/sir-francis-galton-intelligence-eugenics-fingerprints.html)
+
+For more information on the Galton Board: [https://www.youtube.com/watch?v=UCmPmkHqHXk](https://www.youtube.com/watch?v=UCmPmkHqHXk)
+
+For more information on the Normal Distribution: [https://www.youtube.com/watch?v=xI9ZHGOSaCg](https://www.youtube.com/watch?v=xI9ZHGOSaCg) 
+
 ---
 
 ## What you need
