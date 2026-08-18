@@ -41,11 +41,11 @@ Galton famously said: *"Order in Apparent Chaos: I know of scarcely anything so 
 
 ## What you need
 
-- Raspberry Pi 5: The Pi 5 is powerful but requires specific timing fixes.
-- 64x32 RGB LED Matrix: (P6 or P4 pitch works best).
-- Adafruit RGB Matrix Bonnet: Highly recommended for clean wiring.
-- 5V 4A Power Supply: The matrix pulls significant current; a standard Pi power supply isn't enough for both.
-- MicroSD Card: Loaded with Raspberry Pi OS (64-bit).
+- [Raspberry Pi 5](https://www.adafruit.com/product/6007): The Pi 5 is powerful but requires specific timing fixes.
+- [64x32 RGB LED Matrix](https://www.amazon.com/gp/aw/d/B0B2ZC85KN/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=5e1d9c6708e98905b70869acaccf2e05&hsa_cr_id=0&qid=1787091302&sr=1-1-9e67e56a-6f64-441f-a281-df67fc737124&i=aps&aref=48hUlqwPPA&ref_=sbx_s_sparkle_sbtcd_asin_0_title&pd_rd_w=VjAFl&content-id=amzn1.sym.8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68%3Aamzn1.sym.8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68&pf_rd_p=8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68&pf_rd_r=73P6YMCDHSCVH252K3YX&pd_rd_wg=WejXD&pd_rd_r=7b9cba90-b1b1-472f-883d-b11f65fde344): (P6 or P4 pitch works best).
+- [Adafruit RGB Matrix Bonnet](https://www.adafruit.com/product/3211?srsltid=AfmBOorS4FCz2Mq10TKf70Fh0zKMQnmzZtXNlrWiERu_ovk4de6TeQ6o): Highly recommended for clean wiring.
+- [5V 4A Power Supply](https://www.amazon.com/Arkare-100-240V-Replacement-Security-Raspberry/dp/B0F24141Z1/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.xyxhP44Op2PtzScDyUA9of9ECKSACOhaleRAlhVldJQijUGrRuJ_nsuHirIqMRHH9rm9uAWbfNv78PLUMHvSh71tp_yTt5VRyxk8H9TGVI506FfiZMeoEaPRJZjtrFeve5mBA2UupYYRwLIEg9wrZg5-_Okg5ocoYf9xM8P5r9VPnpmrZOwp0FfgM_NQsP67P0ISEJSTmLrY_pB-S8udYjz7lqQ0TgWa9t2Iqxj-1TqDSDaqgD4hwaw69Jo5Ag9CEYzKpcdp5xagfRGnSHzlAeM5kMAfR_qK2vSynhOT7SA.2q7QGRpGqUxOZJ-piLJEILkQSoK0r-OIrUa7jb_Mki4&dib_tag=se&hvadid=695274587949&hvdev=c&hvexpln=67&hvlocphy=9013387&hvnetw=g&hvocijid=13606180190065508269--&hvqmt=e&hvrand=13606180190065508269&hvtargid=kwd-295316582550&hydadcr=18888_13357672&keywords=5v+4a+power+supply&mcid=7dd64de846fb370c819667a75d028a8f&qid=1787091373&s=electronics&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1): The matrix pulls significant current; a standard Pi power supply isn't enough for both.
+- [MicroSD Card](https://www.adafruit.com/product/5249): Loaded with Raspberry Pi OS (64-bit).
 
 ---
 
