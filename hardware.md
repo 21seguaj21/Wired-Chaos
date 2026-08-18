@@ -8,7 +8,9 @@
 
 Arduino is an open-source electronics platform that consists of hardware and software designed to make it easy for anyone to create interactive projects. The core of the platform is the Arduino microcontroller board, which can read inputs from sensors and control outputs like motors, LEDs, and other devices. Arduino boards are programmable using the Arduino IDE, which uses a simplified version of C/C++ programming language. They are widely used in prototyping, education, and hobbyist projects due to their affordability, simplicity, and extensive community support.
 
-![Arduino Uno](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Arduino_Uno_-_R3.jpg/500px-Arduino_Uno_-_R3.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail)
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Arduino_Uno_-_R3.jpg/500px-Arduino_Uno_-_R3.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Arduino_Uno_-_R3.jpg/500px-Arduino_Uno_-_R3.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail">
+</div>
 
 Key points for beginners:
 - Arduino boards come in various models like Uno, Nano, and Mega, each with different sizes, pin counts, and features.
