@@ -16,8 +16,9 @@ You will learn:
 <details>
 <summary><strong>Jump to section</strong></summary>
 
-- [History: The Law of Chaos](#history-the-law-of-chaos)
+- [History: The Law of Chaos](#history-sir-francis-galton-and-the-normal-distribution )
 - [What you need](#what-you-need)
+- [Critical Warnings & What to Avoid](#critical-warnings-and-what-to-avoid)
 - [Step 1: The Raspberry Pi 5 Setup](#step-1-the-raspberry-pi-5-setup)
 - [Step 2: Wiring the Matrix](#step-2-wiring-the-matrix)
 - [Step 3: The Python Code](#step-3-the-python-code)
@@ -63,7 +64,7 @@ For more information about the Central Limit Theorem: [https://www.youtube.com/w
 
 ---
 
-## Critical Warnings & What to Avoid
+## Critical Warnings and What to Avoid
 
 - DO NOT power the LED matrix through the Raspberry Pi's GPIO pins: A 64x32 panel drawing full brightness can pull up to 4A, which can permanently damage the Pi or cause constant system crashes.
 - NEVER plug or unplug power cables or the Bonnet while powered on: Hot-plugging high-current DC power can cause voltage spikes that destroy the sensitive shift registers on the LED matrix.
@@ -125,12 +126,13 @@ options.drop_privileges = False
 
 matrix = RGBMatrix(options = options)
 canvas = matrix.CreateFrameCanvas()
-
+```
 # 2. Game State
 bins = [0] * 64
 pegs = []
 
 # Generate peg positions (a triangle)
+```python
 for y in range(4, 20, 2):
     for x in range(32 - y, 32 + y, 4):
         pegs.append((x, y))
@@ -176,6 +178,7 @@ try:
     run_simulation()
 except KeyboardInterrupt:
     print("Stopping...")
+```
 ## Step 4: The C++ Code
 
 For higher performance and smoother physics, you can use C++. Save this file as `galton.cpp`.
@@ -231,6 +234,7 @@ int main(int argc, char *argv[]) {
 ```bash
 g++ galton.cpp -lrgbmatrix -lpthread -o galton
 sudo ./galton
+```
 ## Common Problems: "It Just Stopped Working"
 
 Hardware projects on the Pi 5 are temperamental. If your board suddenly goes dark or displays "static," check these common failure points:
@@ -253,7 +257,7 @@ sudo python3 galton.py
 ### The "Zombie" Pixels
 * **The Problem:** Random pixels stay lit even after you clear the screen.
 * **The Fix:** This is usually a loose **IDC (ribbon) cable**. The Pi 5’s vibrations from the fan can sometimes wiggle these loose. Unplug and reseat the cable firmly.
-
+```
 ---
 
 ## Tips
