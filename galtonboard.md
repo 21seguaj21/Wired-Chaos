@@ -29,7 +29,7 @@ You will learn:
 
 ---
 
-## History: The Law of Chaos
+## History: Sir Francis Galton and The Normal Distribution 
 
 Invented by Sir Francis Galton in 1894, the Galton Board was designed to demonstrate that while individual events (a ball hitting a peg) are chaotic and unpredictable, the sum of many events is remarkably stable.
 
@@ -41,7 +41,15 @@ For more information on Sir Francis Galton: [https://study.com/academy/lesson/vi
 
 For more information on the Galton Board: [https://www.youtube.com/watch?v=UCmPmkHqHXk](https://www.youtube.com/watch?v=UCmPmkHqHXk)
 
+A Galton board physically demonstrates how individual random events aggregate into a predictable **Normal Distribution** (or *Bell Curve*) through the **Central Limit Theorem**:
+
+* **Binomial Trials:** At each peg row, a falling bead makes an independent 50/50 decision ($p = 0.5$) to bounce left or right.
+* **Accumulated Path:** A bead's final resting bin is determined by the total number of rightward vs. leftward bounces across all peg rows.
+* **Convergence:** While a single bead's path is entirely random, dropping hundreds of beads causes the sum of these independent choices to converge into a symmetrical **Normal Distribution**—centered directly beneath the top funnel.
+
 For more information on the Normal Distribution: [https://www.youtube.com/watch?v=xI9ZHGOSaCg](https://www.youtube.com/watch?v=xI9ZHGOSaCg) 
+
+For more information about the Central Limit Theorem: [https://www.youtube.com/watch?v=YAlJCEDH2uY](https://www.youtube.com/watch?v=YAlJCEDH2uY) 
 
 ---
 
