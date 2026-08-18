@@ -49,6 +49,17 @@ Galton famously said: *"Order in Apparent Chaos: I know of scarcely anything so 
 
 ---
 
+## Critical Warnings & What to Avoid
+
+- DO NOT power the LED matrix through the Raspberry Pi's GPIO pins: A 64x32 panel drawing full brightness can pull up to 4A, which can permanently damage the Pi or cause constant system crashes.
+- NEVER plug or unplug power cables or the Bonnet while powered on: Hot-plugging high-current DC power can cause voltage spikes that destroy the sensitive shift registers on the LED matrix.
+- DO NOT connect power in reverse polarity: Double-check your power supply wiring at the Bonnet's screw terminals (+5V to Red, GND to Black), as swapped wires will instantly fry the hardware.
+- DO NOT power the Pi via USB-C and the Bonnet simultaneously: Feed power strictly through the 5V screw terminals on the Adafruit Bonnet to avoid competing power rails.
+- DO NOT use outdated matrix drivers: Legacy libraries built for Pi 3 or Pi 4 do not recognize the Pi 5's new RP1 I/O controller and will fail to run.
+- AVOID running on-board audio drivers: Raspberry Pi sound drivers interfere with the precise hardware PWM microsecond timing required to display a flicker-free image.
+
+---
+
 ## Step 1: The Raspberry Pi 5 Setup
 
 The Pi 5 handles GPIO differently than previous models. Before coding, we must fix the timing and audio interference.
