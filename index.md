@@ -14,7 +14,7 @@ This website explains how to:
 
 ## Sections
 
-- [Hardware Setup](hardware.md)
+- [Hardware Setup](./hardware)
 - [C++ Certification](C++.md)
 - [Snake Game](snake.md)
 - [Stacker Game](stacker.md)
