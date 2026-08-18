@@ -16,7 +16,7 @@ You will learn:
 <details>
 <summary><strong>Jump to section</strong></summary>
 
-- [History: The Law of Chaos](#history-sir-francis-galton-and-the-normal-distribution )
+- [History](#history-sir-francis-galton-and-the-normal-distribution )
 - [What you need](#what-you-need)
 - [Critical Warnings & What to Avoid](#critical-warnings-and-what-to-avoid)
 - [Step 1: The Raspberry Pi 5 Setup](#step-1-the-raspberry-pi-5-setup)
