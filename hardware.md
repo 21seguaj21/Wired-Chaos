@@ -91,13 +91,22 @@ Notes:
 - If using multiple direction buttons, make sure each button has a stable default state.
 - Keep the wiring neat so the LED array is easy to follow.
 
-## Galton Board
+## Galton Board Wiring
 
-This section is not done yet.
+Connect the Raspberry Pi 5, Adafruit RGB Matrix Bonnet, and 64x32 LED Matrix using the following layout:
 
-- Placeholder for Galton board wiring
-- Add details later for:
-  - motor/pin connections
-  - sensor inputs
-  - power and ground routing
-  - physical layout
+* **Board Connection:**
+  * Plug the Adafruit RGB Matrix Bonnet directly onto the Raspberry Pi 5 GPIO header.
+* **Matrix Data Connection:**
+  * Connect the IDC Ribbon Cable from the Bonnet "Output" connector to the LED Matrix "Input" connector.
+* **Matrix Power Wiring:**
+  * Connect the 4-pin Power Cable to the LED Matrix power connector.
+  * Screw the free red wire (+5V) and black wire (GND) directly into the power screw terminals on the Adafruit Bonnet.
+* **Main Power Supply:**
+  * Plug a dedicated 5V 4A DC power supply into the DC barrel jack on the Adafruit Bonnet. This supplies power to both the LED matrix and the Raspberry Pi through the GPIO pins.
+
+> **Important Power & Safety Rules:**
+> * **Do not** power the LED matrix directly through the Raspberry Pi's GPIO pins.
+> * **Do not** power the Pi via USB-C and the Bonnet simultaneously—feed power strictly through the Bonnet's 5V jack.
+> * Always double-check polarity (+5V to Red, GND to Black) before turning on power.
+> * Never plug or unplug cables while the system is powered on.
