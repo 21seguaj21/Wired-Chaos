@@ -90,6 +90,7 @@ The snake game can use LEDs for the game board and one or more buttons for direc
 Notes:
 - If using multiple direction buttons, make sure each button has a stable default state.
 - Keep the wiring neat so the LED array is easy to follow.
+- If you actually see this (= Hi this is my [Stardew Valley MTG Deck](https://moxfield.com/decks/n2GgRmBgjEayUHhyeyH2zQ)! 
 
 ## Galton Board Wiring
 
