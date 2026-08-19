@@ -53,14 +53,14 @@ You will learn:
 
 Explanation:
 - `LedControl` gives you functions to talk to the MAX7219 chip and draw pixels on the matrix.
-- Without it, you would need to write your own SPI control for the display.
+- Without it, you would need to write your own SPI control for the display [2](Bib.md), [19](Bib.md).
 
 Try this:
-- Open the `LedControl` library examples and compare `setLed()` with `setRow()`.
+- Open the `LedControl` library examples and compare `setLed()` with `setRow()` [2](Bib.md).
 
 ## Step 2: Wire the hardware
 
-### LED matrix wiring
+### LED matrix wiring [2](Bib.md) 
 
 - `VCC` → 5V
 - `GND` → GND
@@ -75,20 +75,20 @@ Try this:
 - use `INPUT_PULLUP` in code so the button reads `HIGH` when not pressed and `LOW` when pressed
 
 Explanation:
-- The matrix uses `DIN`, `CLK`, and `CS` to receive commands from the Arduino.
+- The matrix uses `DIN`, `CLK`, and `CS` to receive commands from the Arduino [2](Bib.md), [19](Bib.md).
 - The button uses the Arduino's internal pull-up resistor, which eliminates the need for an external resistor.
 
 Try this:
-- Draw a wiring diagram showing the matrix and button connections.
+- Draw a wiring diagram showing the matrix and button connections [4](Bib.md).
 - Test the button in a simple sketch that prints `LOW` when pressed.
 
 ## Step 3: Understand the game flow
 
 The sketch has three main parts:
 
-1. `setup()` initializes the display, button, and game state.
-2. `loop()` moves the current block, checks for button presses, and ends or resets the game.
-3. helper functions handle stacking, rendering, game end, and reset.
+1. `setup()` initializes the display, button, and game state [2](Bib.md), [28](Bib.md).
+2. `loop()` moves the current block, checks for button presses, and ends or resets the game [16](Bib.md), [28](Bib.md).
+3. helper functions handle stacking, rendering, game end, and reset [16](Bib.md).
 
 Explanation:
 - `setup()` runs once at startup.
@@ -131,8 +131,8 @@ Explanation:
 - `currentWidth` is how many consecutive LEDs are lit for the moving block.
 - `currentPos` is the leftmost column position of that moving block.
 - `direction` controls whether the block moves right or left.
-- `stack[8][8]` remembers which cells on the board are already stacked.
-- `moveInterval` controls how fast the moving block updates.
+- `stack[8][8]` remembers which cells on the board are already stacked [28](Bib.md), [30](Bib.md).
+- `moveInterval` controls how fast the moving block updates [16](Bib.md).
 - `gameOver` stops the normal game loop after a win or loss.
 
 Try this:
@@ -157,8 +157,8 @@ void setup() {
 ```
 
 Explanation:
-- `shutdown(0, false)` powers on the display.
-- `setIntensity(0, 5)` sets a medium brightness so the block is visible.
+- `shutdown(0, false)` powers on the display [2](Bib.md).
+- `setIntensity(0, 5)` sets a medium brightness so the block is visible [2](Bib.md).
 - `clearDisplay(0)` turns off every LED.
 - `pinMode(buttonPin, INPUT_PULLUP)` makes the button stable with internal pull-up.
 - The nested for-loops set every cell in `stack` to `false`, clearing the game memory.
@@ -187,7 +187,7 @@ if (currentTime - lastMoveTime >= moveInterval) {
 ```
 
 Explanation:
-- `millis()` gives the elapsed time since the Arduino started.
+- `millis()` gives the elapsed time since the Arduino started [16](Bib.md), [28](Bib.md).
 - The block only moves when the elapsed time reaches `moveInterval`.
 - `currentPos += direction` slides the block left or right.
 - The wall check reverses direction when the block hits the left or right edge.
@@ -250,7 +250,7 @@ void placeBlock() {
 }
 ```
 
-Explanation:
+Explanation [16](Bib.md), [32](Bib.md):
 - `placedCount` counts how many ledges from the moving block successfully land.
 - The loop checks each LED in the current moving block.
 - On the bottom row (`currentRow == 7`), every block is valid.
