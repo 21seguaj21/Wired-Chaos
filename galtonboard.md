@@ -16,15 +16,15 @@ You will learn:
 <details>
 <summary><strong>Jump to section</strong></summary>
 
-- [History](#history-sir-francis-galton-and-the-normal-distribution )
-- [What you need](#what-you-need)
-- [Critical Warnings & What to Avoid](#critical-warnings-and-what-to-avoid)
-- [Step 1: The Raspberry Pi 5 Setup](#step-1-the-raspberry-pi-5-setup)
-- [Step 2: Wiring the Matrix](#step-2-wiring-the-matrix)
-- [Step 3: The Python Code](#step-3-the-python-code)
-- [Step 4: The C++ Code](#step-4-the-c-code)
-- [Common Problems: "It Just Stopped Working"](#common-problems-it-just-stopped-working)
-- [Tips](#tips)
+* [History](#history-sir-francis-galton-and-the-normal-distribution)
+* [What you need](#what-you-need)
+* [Critical Warnings & What to Avoid](#critical-warnings--what-to-avoid)
+* [Step 1: The Raspberry Pi 5 Setup](#step-1-the-raspberry-pi-5-setup)
+* [Step 2: Wiring the Matrix](#step-2-wiring-the-matrix)
+* [Step 3: The Python Code](#step-3-the-python-code)
+* [Step 4: The C++ Code](#step-4-the-c-code)
+* [Common Problems: "It Just Stopped Working"](#common-problems-it-just-stopped-working)
+* [Tips](#tips)
 
 </details>
 
