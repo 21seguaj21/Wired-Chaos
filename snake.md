@@ -13,28 +13,7 @@ You will learn:
 - how food, collision detection, and restart logic work
 - common problems and how to fix them
 
-<details>
-<summary><strong>Jump to section</strong></summary>
-
-- [[What does `void` mean?]](#what-does-void-mean)
-- [[What is a library?]](#what-is-a-library)
-- [[What you need]](#what-you-need)
-- [[Step 1: Install the library]](#step-1-install-the-library)
-- [[Step 2: Wire the hardware]](#step-2-wire-the-hardware)
-- [[Step 3: Understand the sketch structure]](#step-3-understand-the-sketch-structure)
-- [[Step 4: Pin and game variables]](#step-4-pin-and-game-variables)
-- [[Step 5: Initialize the display and inputs]](#step-5-initialize-the-display-and-inputs)
-- [[Step 6: Read joystick input and choose a direction]](#step-6-read-joystick-input-and-choose-a-direction)
-- [[Step 7: Move the snake without blocking]](#step-7-move-the-snake-without-blocking)
-- [[Step 8: Update the snake body]](#step-8-update-the-snake-body)
-- [[Step 9: Handle collisions]](#step-9-handle-collisions)
-- [[Step 10: Spawn food safely]](#step-10-spawn-food-safely)
-- [[Step 11: Show game over and restart]](#step-11-show-game-over-and-restart)
-- [[Full sketch reference]](#full-sketch-reference)
-- [[Line-by-line explanation]](#line-by-line-explanation)
-- [[Common problems and fixes]](#common-problems-and-fixes)
-
-</details>
+---
 
 ## What does `void` mean?
 
