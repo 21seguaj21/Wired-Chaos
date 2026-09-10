@@ -13,26 +13,7 @@ You will learn:
 - how stacking logic, collision checking, and win/loss handling work
 - how to reset the game after a win or loss
 
-<details>
-<summary><strong>Jump to section</strong></summary>
-
-- [What you need](#what-you-need)
-- [Step 1: Install the library](#step-1-install-the-library)
-- [Step 2: Wire the hardware](#step-2-wire-the-hardware)
-- [Step 3: Understand the game flow](#step-3-understand-the-game-flow)
-- [Step 4: Pin and game variables](#step-4-pin-and-game-variables)
-- [Step 5: Initialize the display and inputs](#step-5-initialize-the-display-and-inputs)
-- [Step 6: Move the block automatically](#step-6-move-the-block-automatically)
-- [Step 7: Handle button press to stack the block](#step-7-handle-button-press-to-stack-the-block)
-- [Step 8: Place the block and check alignment](#step-8-place-the-block-and-check-alignment)
-- [Step 9: Draw the stack and moving block](#step-9-draw-the-stack-and-moving-block)
-- [Step 10: Handle win and loss conditions](#step-10-handle-win-and-loss-conditions)
-- [Step 11: Reset the game](#step-11-reset-the-game)
-- [Line-by-line explanation](#line-by-line-explanation)
-- [Full sketch reference](#full-sketch-reference)
-- [Common problems and fixes](#common-problems-and-fixes)
-
-</details>
+---
 
 ## What you need
 
