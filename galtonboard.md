@@ -13,21 +13,6 @@ You will learn:
 - how to write a physics simulation in **Python** or **C++**
 - how to troubleshoot specific Pi 5 hardware and power failures
 
-<details>
-<summary><strong>Jump to section</strong></summary>
-<ul>
-  <li><a href="#history-sir-francis-galton-and-the-normal-distribution">History</a></li>
-  <li><a href="#what-you-need">What you need</a></li>
-  <li><a href="#critical-warnings-and-what-to-avoid">Critical Warnings &amp; What to Avoid</a></li>
-  <li><a href="#step-1-the-raspberry-pi-5-setup">Step 1: The Raspberry Pi 5 Setup</a></li>
-  <li><a href="#step-2-wiring-the-matrix">Step 2: Wiring the Matrix</a></li>
-  <li><a href="#step-3-the-python-code">Step 3: The Python Code</a></li>
-  <li><a href="#step-4-the-c-code">Step 4: The C++ Code</a></li>
-  <li><a href="#common-problems-it-just-stopped-working">Common Problems: "It Just Stopped Working"</a></li>
-  <li><a href="#tips">Tips</a></li>
-</ul>
-</details>
-
 ---
 
 ## History: Sir Francis Galton and The Normal Distribution 
