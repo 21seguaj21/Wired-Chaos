@@ -48,7 +48,7 @@ Balls that make a similar number of left and right movements tend to land near t
 
 After many trials, the resulting shape resembles the **Normal Distribution**, commonly called the **Bell Curve** [17].
 
-The mathematics behind repeated random events approaching a predictable distribution is related to the **Central Limit Theorem** [22].
+The mathematics behind repeated random events approaching a predictable distribution is related to the **Central Limit Theorem** (ADD MORE INFOR HERE!!!) [22].
 
 Pearson's work on the mathematical treatment of error and observations also contributed to the historical development of statistical distributions [21].
 
